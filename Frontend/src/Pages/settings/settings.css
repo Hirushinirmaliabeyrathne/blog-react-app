@@ -1,0 +1,86 @@
+/* body {
+
+  justify-content: center;
+  align-items: center;
+  min-height: 150vh;
+  margin: 10px;
+} */
+
+  .settingsWrapper {
+    background: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+    width: 800px;
+    max-width: 90%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+  }
+  
+  
+  
+  .settingsForm {
+   display: inline-flexbox;
+  }
+  
+  
+  .settingsPP > img {
+    height: 70px;
+    width: 70px;
+    border-radius: 10px;
+    object-fit: cover;
+  }
+  
+
+/*   
+  .settingsPPButton:focus {
+    outline-style: none;
+  }
+  
+  .settingsForm > label {
+    font-size: 20px;
+    margin-top: 20px;
+  }
+  
+  .settingsPPInput {
+    width: 30%;
+  }
+  
+   */
+  .settingsSubmitButton {
+    align-self: center;
+    width: 150px;
+    border: none;
+    border-radius: 20px;
+    color: white;
+    background-color: rgb(3, 46, 46);
+    padding: 10px;
+    margin-top: 20px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .settingsSubmitButton:hover {
+    background-color: rgb(1, 114, 114);
+  }
+
+  .settingsDeleteButton{
+    align-self: center;
+    width: 150px;
+    border: none;
+    border-radius: 20px;
+    color: white;
+    background-color: rgb(3, 46, 46);
+    padding: 10px;
+    margin-top: 20px;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+  }
+  .settingsDeleteButton:hover {
+    background-color: rgb(1, 114, 114);
+  }
